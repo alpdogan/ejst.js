@@ -1,0 +1,27 @@
+{
+    "projectName": "example",
+    "host": "localhost",
+    "port": 8888,
+    "outputPath": "./_output",
+    "publicPath": "./public",
+    "ftp": {
+        "address": "",
+        "user": "",
+        "password": "",
+        "port": "21"
+    },
+    "pages": [
+        {
+            "url": "/index.html",
+            "view": "pages/index"
+        },
+        {
+            "url": "/about.html",
+            "view": "pages/about"
+        },
+        {
+            "url": "/test.html",
+            "view": "pages/test"
+        }
+    ]
+}
